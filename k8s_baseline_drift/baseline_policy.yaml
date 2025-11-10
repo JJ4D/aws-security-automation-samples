@@ -1,0 +1,2 @@
+{"apiVersion": "security.lewy.dev/v1alpha1", "kind": "BaselinePolicy", "spec": {"blockPrivilegedPods": true, "enforceRunAsNonRoot": true, "namespacesRequiringNetworkPolicy": ["production", "staging"]}}
+

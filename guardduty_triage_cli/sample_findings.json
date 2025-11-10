@@ -1,0 +1,33 @@
+[
+  {
+    "Id": "sample-finding-1",
+    "Title": "Recon:EC2/PortProbeUnprotectedPort",
+    "Severity": 5.3,
+    "Service": {
+      "EventFirstSeen": "2025-10-02T08:00:00Z",
+      "EventLastSeen": "2025-10-02T08:05:00Z"
+    },
+    "Resource": {
+      "ResourceType": "Instance",
+      "InstanceDetails": {
+        "InstanceId": "i-0123456789abcdef0"
+      }
+    }
+  },
+  {
+    "Id": "sample-finding-2",
+    "Title": "UnauthorizedAccess:IAMUser/ConsoleLogin",
+    "Severity": 7.1,
+    "Service": {
+      "EventFirstSeen": "2025-10-03T11:12:00Z",
+      "EventLastSeen": "2025-10-03T11:12:00Z"
+    },
+    "Resource": {
+      "ResourceType": "AccessKey",
+      "AccessKeyDetails": {
+        "AccessKeyId": "AKIAIOSFODNN7EXAMPLE"
+      }
+    }
+  }
+]
+

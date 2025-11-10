@@ -1,0 +1,4 @@
+eventTime,eventName,user,userType,sourceIP,region,flags
+2025-10-01T12:34:56Z,iam:CreateUser,arn:aws:iam::123456789012:user/automation-bot,IAMUser,203.0.113.10,us-east-1,suspicious-action
+2025-10-01T12:35:10Z,ec2:AuthorizeSecurityGroupIngress,arn:aws:sts::123456789012:assumed-role/Admin/AWSCLI-Session,AssumedRole,198.51.100.22,eu-central-1,suspicious-action;region-anomaly
+2025-10-01T12:40:00Z,s3:ListBuckets,arn:aws:iam::123456789012:root,Root,192.0.2.15,us-west-2,root-usage
